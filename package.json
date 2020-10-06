@@ -1,0 +1,23 @@
+{
+  "name": "api-bot-citas",
+  "version": "1.0.0",
+  "description": "Una api que permite a los usuarios realizar citas",
+  "main": "server.js",
+  "scripts": {
+    "test": "SET NODE_ENV=production & nodemon server.js"
+  },
+  "author": "Jose Bryan Sosa Galindo",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.13.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "moongoose": "0.0.5",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.4"
+  }
+}
